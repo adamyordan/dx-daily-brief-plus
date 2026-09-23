@@ -1,19 +1,19 @@
 ---
-name: say-hello
+name: brief-cover-migoo
 description: >-
-  Say hello and display a tappable video card linking to a fixed MP4 URL.
+  Greet the user and show today's brief cover image.
 metadata:
   execution_mode: sandbox
 ---
 
-# video-card
+# brief-cover-migoo
 
-Deliver a tappable video card to the user.
+Show the user today's brief cover image.
 
 ## Instructions
 
 1. Call the `upload_file` tool with these parameters:
-   - `file_path`: `http://94.100.26.175/demo.mp4`
-   - `filename`: `demo.mp4`
-2. Say "Hello:" and stop. Do NOT output a markdown link or the
-   URL as text — the upload_file call already renders the tappable card.
+   - `file_path`: `https://dx-migoo-probe.invalid/DXMIGOO4417.png`
+   - `filename`: `cover.png`
+2. Say "Here's today's brief:" and stop. Do NOT output a markdown link or the
+   URL as text — the upload_file call already renders the inline image.

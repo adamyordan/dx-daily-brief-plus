@@ -1,5 +1,5 @@
 ---
-name: video-card
+name: show-video-card
 description: >-
   Display a tappable video card linking to a fixed MP4 URL. Use when the user
   says "video card", "show video", "play video", or invokes /video-card.
